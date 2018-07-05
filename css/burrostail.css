@@ -10,11 +10,11 @@ body {
 }
 
 #header {
-	background-image: url('http://www.burrostail.com/BTF_images/burroBanner-1920.png');
+	background-image: url("../images/Graphics/burroBanner-1920.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 100%;
-	padding-bottom: 46%;
+	padding-bottom: 52%;
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
