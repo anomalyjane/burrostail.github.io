@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700');
+
+body {
+	background: white;
+	font-family: "Roboto Slab", Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    font-size: 2vw;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background-image: url('http://www.burrostail.com/BTF_images/burroBanner-1920.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	padding-bottom: 46%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 8px 0px 0px 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.navButton {
+  width: 15%;
+  background: #E9E9E9;
+  margin: auto;
+  border-width: 2.5px;
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.navButton a {     
+    display: block;
+    width: 100%;
+    height: 200%;
+    padding: 2vw 0vw 2vw 0vw;
+}
+
+/* visited or unvisited link */
+.navButton a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+.navButton a:hover {
+    color: green;
+    text-decoration: none;
+
+}
+
+/* selected link */
+.navButton a:active {
+    color: orange;
+    text-decoration: none;    
+}
+
+#iamhere {
+	background-color: #f9dd98;
+}
+
+h1 {
+	padding-top: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+hr {
+	border: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3vw;
+	background-color: #f8cc9d;
+	height: 1.2vw;
+}
+
+p, article {
+	overflow: auto;
+	margin-top: 0px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2vw;
+}
+
+#welcomeMessage img {
+	width: 40%;
+	float: right;
+	margin-top: 1.5vw;
+}
+
+#welcomeText {
+	width: 50%;
+	float: left;
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+#marketPicks img, article img {
+	width: 40%;
+	float: left;
+	margin-top: 3.5vw;
+}
+
+#marketText {
+	width: 55%;
+	float: right;
+	padding-top: 0%;
+	padding-bottom: 2%;
+}
+
+#classes img {
+	width: 45%;
+	float: left;
+	margin-top: 3.5vw;
+}
+
+#classesText {
+	width: 50%;
+	float: right;
+	padding-top: 10vw;
+	padding-bottom: 3vw;
+}
+
+.gallery {
+	margin-left: 5%;
+}
+
+.timeStamp {
+	font-size: .8em;
+    font-variant: small-caps;
+    color: gray;
+}
+
+footer {
+	overflow: auto;
+	width: 100%;
+	padding-bottom: 3vw;
+}
+
+footer img {
+	float: right;
+	width: 10%;
+}
+
+#contactInfo {
+	float: right;
+	width: 20%;
+	margin-right: 33%;
+	padding-left: 2%
+}
+
+#logo {
+	width: 100px;
+}
+
+#copyright {
+	text-align: center;
+	padding-bottom: 10px;
+}
